@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Registration from "./Pages/Registration/Registration";
 
 
-
 const App = () => {
   return (
     <Router>
@@ -12,3 +11,5 @@ const App = () => {
     </Router>
   )
 }
+
+export default App;
