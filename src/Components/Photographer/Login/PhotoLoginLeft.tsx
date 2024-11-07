@@ -1,8 +1,11 @@
 import React from 'react'
+import photoLoginImage from "../../../assets/Photographer/Login/PhotoLogin.png"
 
 const PhotoLoginLeft:React.FC = () => {
   return (
-    <div>PhotoLoginLeft</div>
+    <div className=' w-[30%] bg-black'>
+      <img src={photoLoginImage} className=' h-[100vh] w-[100%]'/>
+    </div>
   )
 }
 

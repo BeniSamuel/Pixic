@@ -4,7 +4,7 @@ import PhotoLoginRight from '../../../Components/Photographer/Login/PhotoLoginRi
 
 const LoginPhoto:React.FC = () => {
   return (
-    <div>
+    <div className=' flex flex-row'>
       <PhotoLoginLeft/>
       <PhotoLoginRight/>
     </div>
