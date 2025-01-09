@@ -8,7 +8,7 @@ const SignupLeft:React.FC = () => {
     navigate("/client/location");
   }
   return (
-    <div className=' bg-[#0E0E0E] h-[100vh] w-[100%] md:w-[70%] flex flex-col items-center gap-16 justify-center md:py-20'>
+    <div className=' bg-[#0E0E0E] h-[100vh] w-[100%] md:w-[70%] flex flex-col items-center gap-16 justify-center py-20'>
         <div className=' text-[#470407] font-mulish text-2xl font-extrabold'>PiXic</div>
         <div className=' flex flex-col gap-9 items-center'>
             <input type="email" placeholder='Name'  className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
