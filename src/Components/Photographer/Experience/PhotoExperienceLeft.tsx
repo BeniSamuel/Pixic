@@ -16,10 +16,10 @@ const PhotoExperienceLeft:React.FC = () => {
             <p className=' text-white font-poppins '>Provide detailed information for nice experience</p>
         </div>
         <div className=' flex flex-col gap-9 items-center'>
-            <input type="email" placeholder='Location...'  className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
-            <input type="email" placeholder='Experience...'  className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
+            <input type="email" placeholder='Location'  className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
+            <input type="email" placeholder='Experience'  className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
             <div className=' flex flex-col gap-2'>
-                <input type="password" placeholder='Language...' className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
+                <input type="password" placeholder='Language' className=' outline-none bg-transparent font-poppins text-white placeholder:font-poppins bg-[#1B1A1A] border-[#505050] border-2 rounded-lg pl-7 py-3 w-[30rem]'/>
             </div>
         </div>
         <div className=' flex flex-col items-center'>
