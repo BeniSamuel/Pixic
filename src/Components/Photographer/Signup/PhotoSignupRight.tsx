@@ -1,12 +1,12 @@
-import React from 'react'
-import signupImage from '../../../assets/Photographer/Signup/PhotoSignup.png';
+import React from "react";
+import signupImage from "../../../assets/Photographer/Signup/PhotoSignup.png";
 
-const PhotoSignupRight:React.FC = () => {
+const PhotoSignupRight: React.FC = () => {
   return (
-    <div className=' w-[32%] bg-black'>
-        <img src={signupImage} className=' h-[100vh] w-[100%]'/>
+    <div className=" w-[32%] bg-black">
+      <img src={signupImage} className=" h-[100vh] w-[100%]" />
     </div>
-  )
-}
+  );
+};
 
-export default PhotoSignupRight
+export default PhotoSignupRight;
